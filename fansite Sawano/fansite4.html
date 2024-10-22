@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eclipse Melodies</title>
     <!--<link rel="stylesheet" href="fansite4.css">-->
+    
 </head>
 <body>
     <header class="menu">
@@ -24,7 +25,11 @@
                 A l'origine des OST les plus iconiques des animés Attack on Titan, Seven Deadly Sins, Eighty-Six ou encore de la récente adaptation de Solo Leveling.
             </p>
             <img src="image_sawano/Sawano_Hiroyuki.jpg" alt="photographie de Sawano Hiroyuki">
-            <!--Ajouter les boutons des réseaux sociaux-->
+            <nav class="social">
+                <a href="https://www.instagram.com/sawano__hiroyuki/" aria-label="lien vers l'instagram de Sawano"><img src="image_sawano/instagram.png"></a>
+                <a href="https://www.youtube.com/channel/UCbJM_Y06iuUOl3hVPqYcvng"><img src="image_sawano/youtube.png" aria-label="lien vers la chaine youtube de Sawano"></a>
+                <a href="https://open.spotify.com/intl-fr/artist/0Riv2KnFcLZA3JSVryRg4y" aria-label="lien vers le spotify de Sawano"><img src="image_sawano/spotify.png"></a>
+            </nav>
         </section>
         <div class="séparateur">
             <section>
@@ -63,6 +68,7 @@
             </section>
             <section id="nav_clips">
                 <h2>Clips</h2>
+                <video src="image_sawano/SawanoHiroyuki[nZk]_XAI 『DARK ARIA ＜LV2＞』 Music Video.mp4" controls width="700"></video>
                 <!--Ajouter un clip avec un diapo en css-->
             </section>
             <section id="nav_site">
@@ -70,12 +76,14 @@
                 <p><a href="https://www.sawanohiroyuki.com">https://www.sawanohiroyuki.com</a>
             </section>
             <section id="nav_news">
-                <h2>Newsletter</h2>
+                <h2>Newsletters</h2>
                 <form>
                     <label for="name">Nom:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" required><br>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required><br>
+                    <laber for="validation"> J'accepte de recevoir les mails de ce site</laber>
+                    <input type="checkbox" value="check" name="validation" required><br>
                     <button type="submit">M'inscrire</button>
                 </form>
             </section>
