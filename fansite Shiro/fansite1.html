@@ -4,34 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shiro Sagisu</title>
-    <link rel="stylesheet" href="css/fansite1.css">
+    <link rel="stylesheet" href="fansite1.css">
 </head>
 <body>
-    <header>
+    <header class="menu">
         
         <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="fansite1.html">Shiro Sagisu</a></li>
-                <li><a href="fansite2.html">Daft Punk</a></li>
-                <li><a href="fansite3.html">Lil Peep</a></li>
-                <li><a href="fansite4.html">Sawano Hiroyuki</a></li>
+            
+            <a href="index.html"><img src="images_Shiro/logo.png" alt="logo de Eclipse Melodies" id="logo-header"></a>
                 
-            </ul>
+                <a href="fansite1.html" class="link-page">Shiro Sagisu</a>
+                <a href="fansite2.html" class="link-page">Daft Punk</a>
+                <a href="fansite3.html" class="link-page">Lil Peep</a>
+                <a href="fansite4.html" class="link-page">Sawano Hiroyuki</a>
+                
+            
         </nav>
     </header>
 
     <main>
         <section class="bordereau">
-            <h1>Shiro Sagisu</h1>
-            <p>LE compositeur classique japonais de l’animation manga des années 2000. Il a marqué des générations avec les OST de Bleach et d’Evangelion. 
-            </p>
-        <img src="images_Shiro/Shiro Mini.jpg" alt="Shiro Mini">
-
-        <nav class="RS">
+            <div class="texte-link">
+                <h1>Shiro Sagisu</h1>
+                <p>LE compositeur classique japonais de l’animation manga des années 2000. Il a marqué des générations avec les OST de Bleach et d’Evangelion. 
+                </p>
             
-            <a href="https://www.youtube.com/channel/UCX1eEXAVyXoPviRXoEgKipQ"><img src="images_Shiro/youtube.png" aria-label="lien vers la chaine youtube de Shiro Sagisu"></a>
-            <a href="https://open.spotify.com/intl-fr/artist/5k3NfhEeZHpouIGDpjKOPo" aria-label="lien vers le spotify de Shiro Sagisu"><img src="images_Shiro/spotify.png"></a>
+    
+            <nav class="RS">
+                
+                <a href="https://www.youtube.com/channel/UCX1eEXAVyXoPviRXoEgKipQ"><img src="images_Shiro/youtube.png" aria-label="lien vers la chaine youtube de Shiro Sagisu" class="social"></a>
+                <a href="https://open.spotify.com/intl-fr/artist/5k3NfhEeZHpouIGDpjKOPo" aria-label="lien vers le spotify de Shiro Sagisu"><img src="images_Shiro/spotify.png" class="social"></a>
+            </nav>
+        </div>
+
+        <div class = "shiromini"><img src="images_Shiro/Shiro Mini.jpg" alt="Shiro Mini"></div>
+            
+    </section>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#nav_actu">Actualité</a></li>
+                <li><a href="#nav_disco">Discographie</a></li>
+                <li><a href="#nav_event">Événements</a></li>
+                <li><a href="#nav_clips">Clips</a></li>
+                <li><a href="#nav_site">Site officiel</a></li>
+                <li><a href="#nav_news">Newsletter</a></li>
+            </ul>
         </nav>
     </section>
         
@@ -43,10 +62,10 @@
         <section class="disco">
             <h2>Discographie</h2>
             
-            <img src="images_Shiro/Shin-Eva.jpg" alt="album Eva 3.0">
-            <img src="images_Shiro/Bleach-blood.jpg" alt="album bleach TYBW">
-            <img src="images_Shiro/shin-godzilla.jpg" alt="album Shin Godzilla">
-            <img src="images_Shiro/Hellverse.jpg" alt="album Bleach hellverse">
+            <img class ="discoimg" src="images_Shiro/eva1.jpg" alt="album Eva 3.0">
+            <img class ="discoimg" src="images_Shiro/bleachblood.jpg" alt="album bleach TYBW">
+            <img class ="discoimg" src="images_Shiro/shin-godzilla.jpg" alt="album Shin Godzilla">
+            <img class ="discoimg" src="images_Shiro/Hellverse.jpg" alt="album Bleach hellverse">
         </section>
 
         <section class ="event">
@@ -69,7 +88,7 @@
             
         </section>
         <section>
-            <h2>Contact</h2>
+            <h2>Newsletter</h2>
             <form>
                 <label for="name">Nom:</label>
                 <input type="text" id="name" name="name" required>
@@ -82,8 +101,16 @@
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Fansite. Tous droits réservés.</p>
-    </footer>
+    
+        <footer>
+            <nav>
+                <a href="index.html"><img src="images_Shiro/logo.png" alt="logo de Eclipse Melodies" id="logo-footer"></a>
+                <a href="fansite1.html" class="link-page">Shiro Sagisu</a>
+                <a href="fansite2.html" class="link-page">Daft Punk</a>
+                <a href="fansite3.html" class="link-page">Lil Peep</a>
+                <a href="fansite4.html" class="link-page">Sawano Hiroyuki</a>
+            </nav>
+        </footer>
+    
 </body>
 </html>
