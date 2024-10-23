@@ -1,4 +1,12 @@
-.menu {
+body { /*Corps du site*/
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.menu{ /*Header du site*/
+    background-color: #D9D9D9;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
