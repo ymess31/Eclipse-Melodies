@@ -3,6 +3,7 @@ body { /*Corps du site*/
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #3A3A3A;
 }
 
 .menu{ /*Header du site*/
@@ -20,8 +21,16 @@ body { /*Corps du site*/
     height: 95px;
 }
 
-h1 {
-    color: black;
+h2 {
+    color: #FFFFFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.separateur p {
+    color: #FFFFFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
 }
 
 nav{
@@ -88,6 +97,11 @@ nav{
     margin-left: 15px;
 }
 
+.separateur{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
 nav ul li a {
     color: black; 
     text-decoration: none;
@@ -98,10 +112,46 @@ nav ul li a:hover {
     color: black; 
 }
 
-main {
-    background-color: #ffffff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+.main-center{
+    margin: 60px;
+}
+
+.music-disco{
+    height: 290px;
+}
+
+
+.navigation{
+    background-color: #BCBBBB;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    margin-top: 55px;
+    position: sticky;
+    top: 5%;
+}
+
+.navigation ul li{
+    font-size: 25px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+article{
+    margin: 10px;
+}
+
+.align{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-left: 1px solid #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 footer {
