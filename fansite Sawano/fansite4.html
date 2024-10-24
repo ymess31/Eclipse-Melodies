@@ -73,19 +73,35 @@
                         <article>
                             <img src="image_sawano/Resonance_Phase_0-Sawano.jpg" alt="image du single Resonance phase 0 de Sawano" class="music-disco">
                             <p>Bande son original : <br> RESONANCE PHASE 0</p>
-                            <p>Date : 10/18/2024</p>
+                            <p>Date : 18/10/2024</p>
                         </article>
                         <article>
                             <img src="image_sawano/blackblue-Sawano.jpg" alt="image de l'album bLaCKbLUE de Sawano" class="music-disco">
                             <p>Album bLaCKbLUE <br> Compilation de ses meilleurs musiques</p>
-                            <p>Date : 10/02/2024</p>
+                            <p>Date : 02/10/2024</p>
                         </article>
                     </div>
                 </section>
                 <section id="nav_clips">
-                    <h2>Clips</h2>
-                    <video src="image_sawano/SawanoHiroyuki[nZk]_XAI 『DARK ARIA ＜LV2＞』 Music Video.mp4" controls width="700"></video>
-                    <!--Ajouter un clip avec un diapo en css-->
+                        <h2>Clips</h2>
+                    <article class="slides">
+                        <input type="radio" name="slides" id="slide1" checked>
+                        <figure>
+                            <video src="image_sawano/SawanoHiroyuki[nZk]_XAI 『DARK ARIA ＜LV2＞』 Music Video.mp4" controls width="700"></video>
+                            <label for="slide2" class="next"><img src="image_sawano/suivant.png" alt="bouton pour allé au clip suivant" class="bouton"></label>
+                        </figure>
+                        <input type="radio" name="slides" id="slide2">
+                        <figure>
+                            <video src="image_sawano/SawanoHiroyuki[nZk]TOMORROW X TOGETHER 『LEveL』 Music Video.mp4" controls width="700"></video>
+                            <label for="slide1" class="last"><img src="image_sawano/precedent.png" alt="bouton pour allé au clip précédent" class="bouton"></label>
+                            <label for="slide3" class="next"><img src="image_sawano/suivant.png" alt="bouton pour allé au clip suivant" class="bouton"></label>
+                        </figure>
+                        <input type="radio" name="slides" id="slide3">
+                        <figure>
+                            <video src="image_sawano/SawanoHiroyuki[nZk]XAI「LEMONADE」Music Video 七つの大罪 怨嗟のエジンバラ 前編 ver..mp4" controls width="700"></video>
+                            <label for="slide2" class="last"><img src="image_sawano/precedent.png" alt="bouton pour allé au clip précédent" class="bouton"></label>
+                        </figure>
+                    </article>
                 </section>
                 <section id="nav_site">
                     <h2>Site officiel</h2>
@@ -93,14 +109,14 @@
                 </section>
                 <section id="nav_news">
                     <h2>Newsletters</h2>
-                    <form>
+                    <form class="news-box">
                         <label for="name">Nom:</label>
                         <input type="text" id="name" name="name" required><br>
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required><br>
+                        <input type="email" id="email" name="email" required class="marg-top"><br>
                         <laber for="validation"> J'accepte de recevoir les mails de ce site</laber>
-                        <input type="checkbox" value="check" name="validation" required><br>
-                        <button type="submit">M'inscrire</button>
+                        <input type="checkbox" value="check" name="validation" required class="marg-top"><br>
+                        <button type="submit" class="marg-top">M'inscrire</button>
                     </form>
                 </section>
             </div>
