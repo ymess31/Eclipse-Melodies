@@ -157,10 +157,13 @@ nav a{
     padding: 10px 0px
 }
 
-nav a:hover{
+.deroulant a:hover{
     color: orange;
     border-bottom: 2px solid gold;
 }
+/*éviter que le logo soit souligné en jaune aussi*/
+
+
 
 /*menu déroulant : cacher le menu + couleur de fond aux sous menus pour qu'ils se démarquent*/
 .sous{
