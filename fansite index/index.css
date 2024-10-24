@@ -131,3 +131,63 @@ margin-bottom: 30px;}
     
     
 }
+
+/* menu déroulant : éléments textuels du menu*/
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav ul::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+/*menu déroulant : cacher le menu + couleur de fond aux sous menus pour qu'ils se démarquent*/
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: aqua;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+} 
+/* Ce sélecteur permet de cibler un sous menu .sous lorsqu'un utilisateur passe sa souris sur un élément li de la liste représentant notre menu principal */
+
+/* Afficher les sous menus les uns en dessous des autres + occupent tout l'espace dispo */
+
+.sous li{
+    float : none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.deroulant > a::after{
+    content :"▼";
+    font-size: 12px;
+}
